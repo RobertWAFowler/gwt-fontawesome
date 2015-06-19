@@ -1,3 +1,5 @@
+![](https://travis-ci.org/levigo/gwt-fontawesome.svg)
+
 # gwt-fontawesome
 
 `gwt-fontawesome` is a library providing [Font Awesome](http://fortawesome.github.io/Font-Awesome) 4.3.0 within gwt projects.
