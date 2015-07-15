@@ -16,6 +16,8 @@
  */
 package org.jadice.web.gwt.fontawesome.client;
 
+import com.google.gwt.dom.client.Document;
+import com.google.gwt.dom.client.Element;
 import com.google.gwt.safehtml.shared.SafeHtml;
 import com.google.gwt.safehtml.shared.SafeHtmlBuilder;
 
@@ -629,5 +631,12 @@ public enum FontAwesome {
   public SafeHtml toSafeHtml() {
     return new SafeHtmlBuilder().appendHtmlConstant("<i class=\"fa fa-" + styleClass +
       "\"></i>").toSafeHtml();
+  }
+
+  public Element createElement(Document document) {
+    final Element element = document.createElement("i");
+    element.addClassName("fa");
+    element.addClassName("fa-" + styleClass);
+    return element;
   }
 }
