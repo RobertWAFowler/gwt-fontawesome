@@ -4,10 +4,11 @@
 
     <groupId>org.jadice.web</groupId>
     <artifactId>gwt-fontawesome</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.0</version>
 
     <name>FontAwesome for GWT</name>
     <description>A library providing FontAwesome in GWT projects.</description>
+    <url>https://github.com/levigo/gwt-fontawesome</url>
 
     <licenses>
         <license>
@@ -40,6 +41,7 @@
     </distributionManagement>
 
     <scm>
+        <url>scm:git:https://github.com/levigo/gwt-fontawesome.git</url>
         <connection>scm:git:https://github.com/levigo/gwt-fontawesome.git</connection>
         <developerConnection>scm:git:https://github.com/levigo/gwt-fontawesome.git</developerConnection>
     </scm>
