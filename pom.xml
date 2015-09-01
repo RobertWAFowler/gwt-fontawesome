@@ -4,7 +4,7 @@
 
     <groupId>org.jadice.web</groupId>
     <artifactId>gwt-fontawesome</artifactId>
-    <version>1.0.1-SNAPSHOT</version>
+    <version>1.0.2-SNAPSHOT</version>
 
     <name>FontAwesome for GWT</name>
     <description>A library providing FontAwesome in GWT projects.</description>
