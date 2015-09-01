@@ -10,6 +10,7 @@
 
     <name>FontAwesome for GWT</name>
     <description>A library providing FontAwesome in GWT projects.</description>
+    <url>https://github.com/levigo/gwt-fontawesome</url>
 
     <licenses>
         <license>
@@ -42,6 +43,7 @@
     </distributionManagement>
 
     <scm>
+        <url>scm:git:https://github.com/levigo/gwt-fontawesome.git</url>
         <connection>scm:git:https://github.com/levigo/gwt-fontawesome.git</connection>
         <developerConnection>scm:git:https://github.com/levigo/gwt-fontawesome.git</developerConnection>
     </scm>
